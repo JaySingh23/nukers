@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: Raleway;
+  background: #121a27;
+}
+
+body .circle {
+  pointer-events: none;
+  position: absolute;
+  background-color: #54d7e4;
+  border-radius: 50%;
+  opacity: 0.7;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  z-index: 1000;
+}
+
+body main #landing {
+  position: absolute;
+  top: 0%;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+body main #landing .content__title {
+  -webkit-transform: perspective(400px) rotateY(-65deg);
+          transform: perspective(400px) rotateY(-65deg);
+}
+
+body main #about {
+  width: 100%;
+  min-height: 100vh;
+  background: #121a27;
+  letter-spacing: 1.2px;
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  top: 100vh;
+  z-index: 0;
+  -webkit-transition: 320ms ease-in;
+  transition: 320ms ease-in;
+}
+
+body main #about .page {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  -webkit-transform: translate(-20%, -40%);
+          transform: translate(-20%, -40%);
+  z-index: 0;
+}
+
+body main #about .page img {
+  width: 500px;
+}
+
+body main #about .head {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 80px;
+  min-width: 40vw;
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  -webkit-transform: translate(-70%, -30%);
+          transform: translate(-70%, -30%);
+  z-index: 5;
+}
+
+body main #about .head span {
+  color: transparent;
+  -webkit-text-stroke: 2px #54d7e4;
+  cursor: pointer;
+}
+
+body main #about img {
+  width: 500px;
+}
+
+body main #about .nuke {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 100px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+body main #about .love {
+  width: 300px;
+  opacity: 0;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  z-index: 0;
+}
+
+body main #about .unique {
+  width: 420px;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  z-index: 0;
+}
+
+body main #about .idea {
+  width: 300px;
+  opacity: 0;
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  z-index: 1;
+}
+
+body main #about .work {
+  width: 400px;
+  opacity: 0;
+  position: absolute;
+  left: 60%;
+  top: 10%;
+  z-index: 1;
+}
+
+body main #work {
+  padding: 24px;
+  width: 100vw;
+  height: 100vh;
+  background: #121a27;
+  display: none;
+  overflow-x: hidden;
+  top: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: auto;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 0;
+  overflow-y: hidden;
+}
+
+body main #work .scrollright {
+  font-size: 16px;
+  color: #54d7e4;
+  position: absolute;
+  left: 20%;
+  bottom: 10%;
+}
+
+body main #work .page {
+  margin: auto 32px;
+  font-size: 200px;
+  font-weight: 700;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 4px #e95499;
+}
+
+body main #work .works {
+  display: inline-block;
+}
+
+body main #work .works li {
+  position: relative;
+  padding: 60px;
+  display: inline-block;
+}
+
+body main #work .works li .heading {
+  margin: 16px 0px;
+  font-size: 70px;
+  font-weight: 700;
+  color: #54d7e4;
+}
+
+body main #work .works li .heading span {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+body main #work .works li img {
+  opacity: 0.7;
+  height: 450px;
+  width: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 240ms ease;
+  transition: 240ms ease;
+}
+
+body main #work .works li::after {
+  content: 'explore';
+  width: 120px;
+  height: 120px;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  -webkit-transform: translate(0%, -100%);
+          transform: translate(0%, -100%);
+  border-radius: 50%;
+  background-color: #e95499;
+}
+/*# sourceMappingURL=style.css.map */

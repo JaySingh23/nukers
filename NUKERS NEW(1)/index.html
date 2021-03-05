@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NUKERS </title>
+	<meta name="description" content="An exploding objects effect made with three.js." />
+	<meta name="keywords" content="webgl, 3d, objects, exploding, shatter, fragment, animation, template, javascript" />
+	<meta name="author" content="Codrops" />
+	<link rel="stylesheet" href="https://use.typekit.net/ldt4auk.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/hamburger.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/team.css">
+	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	
+</head>
+
+<body class="demo-1 loading">
+	<main>
+		<!-- <div class="wrapper">
+			<div class="icon nav-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div> -->
+
+			<ul class='menu'>
+				<li><a href="#">about</a></li>
+				<li><a href="#work">work</a></li>
+				<li><a href="team.html">team</a></li>
+				<li><a href="#contact">contact</a></li>
+			  </ul>
+
+		<section id="landing">
+			<div id="container"></div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Scroll Down</h1>
+				</div>
+			</div>
+			<div class="content1">
+				<div class="content__item1">
+					<button class="content__button">Nuke it...</button>
+				</div>
+				<div class="content__item1 content__item--details">
+					<h1 class="content__title">WE ARE <br>NUKERS</h1>
+				</div>
+			</div>
+		</section>
+
+		<section id='hero'>
+			<section id="about">
+				<div class="page"><img src="./images/aboutus.png" alt=""></div>
+				<div class="head">
+					We are developers
+					and designers <span>loves</span>
+					our <span>work</span> to be <span>unique</span>
+					and we have some creative  <span>ideas</span> for you.
+				</div>
+				<img src="./images/love-862518_1920.jpg" alt="love" class="love">
+				<img src="./images/japan-2014618_1920.jpg" alt="unique" class="unique">
+				<img src="./images/bulb-5665770_1920.jpg" alt="idea" class="idea">
+				<img src="./images/blue-1845901_1920.jpg" alt="work" class="work">
+			</section>
+
+			<section id="work">
+				<div class="scrollright">Scroll -></div>
+				<span class="page">Our <br>Work</span>
+				<ul class="works">
+					<li><div class="heading">01 <span>Project1</span></div><img src="./images/japan-2014618_1920.jpg" alt=""></li>
+					<li><div class="heading">02 <span>Project2</span></div><img src="./images/love-862518_1920.jpg" alt=""></li>
+					<li><div class="heading">03 <span>Project3</span></div><img src="./images/blue-1845901_1920.jpg" alt=""></li>
+					<li><div class="heading">04 <span>Project4</span></div><img src="./images/workbg.png" alt=""></li>
+				</ul>
+				<span class="page">Hope you<br>liked these</span>
+			</section>
+		</section>
+
+		<section id="team">
+			<span class="page1">Our <br>Team</span>
+			<div class="content content--center">
+				<div class="content__item">
+					<div class="content__item-imgwrap">
+						<div class="content__item-img" style="background-image: url(images/10.jfif);"></div>
+					</div>
+					<h2 class="content__item-title">Sahil</h2>
+					<p class="content__item-description">I am a web developer who loves to play around with javascript.
+						Backend is my domain.</p>
+					<div class="content__item-decobar"></div>
+				</div>
+				<div class="content_mar">
+				 <div class="content__item">
+					<div class="content__item-imgwrap">
+						<div class="content__item-img" style="background-image: url(images/1.jpeg);"></div>
+					</div>
+					<h2 class="content__item-title">Jay</h2>
+					<p class="content__item-description">I have always loved animations. I love to play around with
+						frontend and animations. Frontend is my domain.</p>
+					<div class="content__item-decobar"></div>
+				 </div>
+				</div>
+			<div class="footer">
+				 <span id="one" style="color: white;">We are a new team. </span> <span id="three" style="color: white;">
+					If you want to join us, then mail us at <a href="mailto:jaysingh1452@gmail.com">
+						jaysingh1452@gmail.com</a></span>
+				 </div>
+			    </div>
+
+		</section>
+		
+		<section id="contact">
+			<p class="marquee">
+				<span>CONTACT US | CONTACT US | CONTACT US | </span>
+			</p>
+			<p class="marquee marquee2">
+				<span>CONTACT US | CONTACT US | CONTACT US |</span>
+			</p>
+			<h2>HELLO,</h2>
+			<form action="/action_page.php" method="get" name="myForm" id="form">
+				<label for="fname">MY NAME IS </label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="email">HERE IS MY EMAIL </label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="work">I AM LOOKING FOR </label>
+				<textarea id="work1" name="work1" rows="4" cols="50"> </textarea>
+				<input type="button" onclick="formSubmit()" value="Send">
+			</form>
+
+		</section>
+
+	</main>
+	
+	<script src="js/ico.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/charming.min.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+	<!-- <script src="./js/canvas.js"></script> -->
+	<script src="./js/script.js"></script>
+</body>
+
+</html>

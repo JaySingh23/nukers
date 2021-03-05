@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NUKERS | TEAM</title>
+    <meta name="description"
+        content="A set of ideas of animating images and other elements while smooth scrolling a page." />
+    <meta name="keywords" content="smooth scrolling, animation, scroll, website, images, web development, javascript" />
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" href="https://use.typekit.net/dec4mzz.css">
+    <link rel="stylesheet" type="text/css" href="css/team.css" />
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+</head>
+
+<body class="demo-6 loading">
+    <main>
+        <div data-scroll class="page page--layout-2">
+            <h1 class="page__title">OUR TEAM</h1>
+            <div class="content content--center">
+                <div class="content__item">
+                    <div class="content__item-imgwrap">
+                        <div class="content__item-img" style="background-image: url(img/10.jfif);"></div>
+                    </div>
+                    <h2 class="content__item-title">Sahil</h2>
+                    <p class="content__item-description">I am a web developer who loves to play around with javascript.
+                        Backend is my domain.</p>
+                    <div class="content__item-decobar"></div>
+                </div>
+                <div class="content__item">
+                    <div class="content__item-imgwrap">
+                        <div class="content__item-img" style="background-image: url(img/1.jpeg);"></div>
+                    </div>
+                    <h2 class="content__item-title">Jay</h2>
+                    <p class="content__item-description">I have always loved animations. I love to play around with
+                        frontend and animations. Frontend is my domain.</p>
+                    <div class="content__item-decobar"></div>
+                </div>
+                <span id="one" style="color: white;">We are a new team. </span> <span id="three" style="color: white;">
+                    If you want to join us, then mail us at <a href="mailto:jaysingh1452@gmail.com">
+                    jaysingh1452@gmail.com</a></span>
+            </div>
+        </div>
+    </main>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/demo6.js"></script>
+</body>
+
+</html>
